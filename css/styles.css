@@ -537,9 +537,9 @@ margin: 0 15px;
 
 .footer-social-media {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding: 0;
   
 }
 
@@ -550,15 +550,18 @@ margin: 0 15px;
   color: var(--color-blanco);
   margin: 0;
   margin-bottom: 20px;
+  margin-left: 10px;
 }
 
-.footer-social-media-logos {
-  display: flex;
+
+li.footer-social-media-logos {
+  list-style: none;
 }
 
 .footer-bg-icon {
   width: 44px;
   height: 44px;
+  list-style: none;
   fill: var(--color-blanco);
   background-color: #FFFFFF1A;
   display: flex;
